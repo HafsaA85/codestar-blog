@@ -1,5 +1,5 @@
-from django.shortcuts import render
-from django.http import HttpResponse
+from django.shortcuts import render # pyright: ignore[reportMissingModuleSource]
+from django.http import HttpResponse # pyright: ignore[reportMissingModuleSource]
 
 # Create your views here.
 def index(request):
